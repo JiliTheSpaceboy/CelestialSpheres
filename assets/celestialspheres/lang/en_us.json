@@ -1,0 +1,23 @@
+{
+    "itemGroup.celestialspheres.celestia-generic-blocks": "Celestial Spheres: Generic Blocks",
+    "itemGroup.celestialspheres.celestia-moon": "Celestial Spheres: Moon",
+    "itemGroup.celestialspheres.celestia-misc": "Celestial Spheres: Miscellaneous",
+
+    "block.celestialspheres.anorthosite": "Anorthosite",
+    "block.celestialspheres.polished_anorthosite": "Polished Anorthosite",
+    "block.celestialspheres.polished_anorthosite_bricks": "Polished Anorthosite Bricks",
+    "block.celestialspheres.anorthosite_iron_ore": "Anorthosite Iron Ore",
+    "block.celestialspheres.dark_lunar_breccia": "Dark Lunar Breccia",
+    "block.celestialspheres.dark_lunar_regolith": "Dark Lunar Regolith",
+    "block.celestialspheres.dark_lunarcrete_bricks": "Dark Lunarcrete Bricks",
+    "block.celestialspheres.dark_lunarcrete": "Dark Lunarcrete",
+    "block.celestialspheres.light_lunar_breccia": "Light Lunar Breccia",
+    "block.celestialspheres.light_lunar_regolith": "Light Lunar Regolith",
+    "block.celestialspheres.light_lunarcrete_bricks": "Light Lunarcrete Bricks",
+    "block.celestialspheres.light_lunarcrete": "Light Lunarcrete",
+    "block.celestialspheres.polished_dark_lunarcrete": "Polished Dark Lunarcrete",
+    "block.celestialspheres.polished_light_lunarcrete": "Polished Light Lunarcrete",
+
+    "item.celestialspheres.orrery": "Astral Orrery",
+    "item.celestialspheres.telescope": "Telescope"
+}

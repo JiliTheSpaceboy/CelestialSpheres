@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "celestialspheres:dark_lunarcrete"
+  },
+  "result": "celestialspheres:polished_dark_lunarcrete"
+}

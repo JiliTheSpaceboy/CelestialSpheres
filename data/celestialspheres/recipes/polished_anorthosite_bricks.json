@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": {
+            "item": "celestialspheres:polished_anorthosite"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "item": "celestialspheres:polished_anorthosite_bricks",
+        "count": 4
+    }
+}
