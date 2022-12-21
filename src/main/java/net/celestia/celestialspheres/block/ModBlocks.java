@@ -15,11 +15,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block LUNAR_REGOLITH = registerBlock("lunar_regolith",
+    public static final Block DARK_LUNAR_REGOLITH = registerBlock("dark_lunar_regolith",
         new Block(FabricBlockSettings.of(Material.SOIL).strength(0.6f)),
         ModItemGroup.CELESTIA_MOON);
-    public static final Block LUNAR_BRECCIA = registerBlock("lunar_breccia",
+    public static final Block LIGHT_LUNAR_REGOLITH = registerBlock("light_lunar_regolith",
+        new Block(FabricBlockSettings.of(Material.SOIL).strength(0.6f)),
+        ModItemGroup.CELESTIA_MOON);
+    public static final Block DARK_LUNAR_BRECCIA = registerBlock("dark_lunar_breccia",
         new Block(FabricBlockSettings.of(Material.STONE).strength(0.8f).requiresTool()),
+        ModItemGroup.CELESTIA_MOON);
+    public static final Block LIGHT_LUNAR_BRECCIA = registerBlock("light_lunar_breccia",
+        new Block(FabricBlockSettings.of(Material.STONE).strength(0.8f).requiresTool()),
+        ModItemGroup.CELESTIA_MOON);
+    public static final Block ANORTHOSITE = registerBlock("anorthosite",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(1.5f).resistance((6.0f)).requiresTool()),
         ModItemGroup.CELESTIA_MOON);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

@@ -1,9 +1,13 @@
 {
-    "item.celestialspheres.telescope": "Telescope",
+    "itemGroup.celestialspheres.celestia-misc": "Celestial Spheres: Miscellaneous",
+    "itemGroup.celestialspheres.celestia-moon": "Celestial Spheres: Moon",
+
+    "block.celestialspheres.anorthosite": "Anorthosite",
+    "block.celestialspheres.dark_lunar_breccia": "Dark Lunar Breccia",
+    "block.celestialspheres.dark_lunar_regolith": "Dark Lunar Regolith",
+    "block.celestialspheres.light_lunar_breccia": "Light Lunar Breccia",
+    "block.celestialspheres.light_lunar_regolith": "Light Lunar Regolith",
+
     "item.celestialspheres.orrery": "Astral Orrery",
-
-    "block.celestialspheres.lunar_regolith": "Lunar Regolith",
-    "block.celestialspheres.lunar_breccia": "Lunar Breccia",
-
-    "itemGroup.celestialspheres.celestia-misc": "Celestial Spheres: Miscellaneous"
+    "item.celestialspheres.telescope": "Telescope"
 }
