@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "celestialspheres:lunar_regolith"
+        }
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "item": "celestialspheres:lunar_breccia",
+        "count": 1
+    }
+}

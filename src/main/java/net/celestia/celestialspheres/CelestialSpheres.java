@@ -1,5 +1,6 @@
 package net.celestia.celestialspheres;
 
+import net.celestia.celestialspheres.block.ModBlocks;
 import net.celestia.celestialspheres.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class CelestialSpheres implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

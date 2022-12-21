@@ -7,12 +7,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup CELESTIA_MISC = FabricItemGroup.builder(
-        new Identifier(CelestialSpheres.MOD_ID, "celestia-misc"))
-        .icon(() -> new ItemStack(ModItems.TELESCOPE))
-        .build();
     public static final ItemGroup CELESTIA_MOON = FabricItemGroup.builder(
         new Identifier(CelestialSpheres.MOD_ID, "celestia-moon"))
+        .icon(() -> new ItemStack(ModItems.TELESCOPE))
+        .build();
+    public static final ItemGroup CELESTIA_MISC = FabricItemGroup.builder(
+        new Identifier(CelestialSpheres.MOD_ID, "celestia-misc"))
         .icon(() -> new ItemStack(ModItems.TELESCOPE))
         .build();
 }
