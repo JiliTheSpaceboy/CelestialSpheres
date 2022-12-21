@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "celestialspheres:block/anorthosite_iron_ore"
+    }
+}
