@@ -1,8 +1,17 @@
 {
     "replace": false,
     "values": [
+        "celestialspheres:anorthosite",
+        "celestialspheres:polished_anorthosite",
+        "celestialspheres:polished_anorthosite_bricks",
+        "celestialspheres:anorthosite_iron_ore",
         "celestialspheres:dark_lunar_breccia",
         "celestialspheres:light_lunar_breccia",
-        "celestialspheres:anorthosite"
+        "celestialspheres:dark_lunarcrete",
+        "celestialspheres:light_lunarcrete",
+        "celestialspheres:dark_lunarcrete_bricks",
+        "celestialspheres:light_lunarcrete_bricks",
+        "celestialspheres:polished_dark_lunarcrete",
+        "celestialspheres:polished_light_lunarcrete"
     ]
 }
