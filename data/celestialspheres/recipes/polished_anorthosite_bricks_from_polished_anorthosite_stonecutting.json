@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "celestialspheres:polished_anorthosite"
-  },
-  "result": "celestialspheres:polished_anorthosite_bricks"
-}

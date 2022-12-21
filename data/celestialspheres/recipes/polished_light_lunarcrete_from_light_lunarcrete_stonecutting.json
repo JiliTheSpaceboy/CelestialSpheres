@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "celestialspheres:light_lunarcrete"
-  },
-  "result": "celestialspheres:polished_light_lunarcrete"
-}
