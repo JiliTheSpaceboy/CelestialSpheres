@@ -1,17 +1,22 @@
 {
     "replace": false,
     "values": [
-        "celestialspheres:anorthosite",
-        "celestialspheres:polished_anorthosite",
-        "celestialspheres:polished_anorthosite_bricks",
         "celestialspheres:anorthosite_iron_ore",
+        "celestialspheres:anorthosite_peridot_ore",
+        "celestialspheres:anorthosite",
         "celestialspheres:dark_lunar_breccia",
-        "celestialspheres:light_lunar_breccia",
-        "celestialspheres:dark_lunarcrete",
-        "celestialspheres:light_lunarcrete",
         "celestialspheres:dark_lunarcrete_bricks",
+        "celestialspheres:dark_lunarcrete",
+        "celestialspheres:dunite",
+        "celestialspheres:ilmenite",
+        "celestialspheres:light_lunar_breccia",
         "celestialspheres:light_lunarcrete_bricks",
+        "celestialspheres:light_lunarcrete",
+        "celestialspheres:peridot_block",
+        "celestialspheres:polished_anorthosite_bricks",
+        "celestialspheres:polished_anorthosite",
         "celestialspheres:polished_dark_lunarcrete",
+        "celestialspheres:polished_dunite",
         "celestialspheres:polished_light_lunarcrete"
     ]
 }

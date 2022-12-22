@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "celestialspheres:cheese_block",
         "celestialspheres:dark_lunar_regolith",
         "celestialspheres:light_lunar_regolith"
     ]

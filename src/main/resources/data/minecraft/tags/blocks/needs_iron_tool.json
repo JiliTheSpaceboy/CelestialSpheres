@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        
+        "celestialspheres:anorthosite_peridot_ore",
+        "celestialspheres:peridot_block"
     ]
 }

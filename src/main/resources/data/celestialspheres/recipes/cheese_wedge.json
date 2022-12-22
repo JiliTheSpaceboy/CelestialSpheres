@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "celestialspheres:cheese_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "celestialspheres:cheese_wedge"
+  }
+}

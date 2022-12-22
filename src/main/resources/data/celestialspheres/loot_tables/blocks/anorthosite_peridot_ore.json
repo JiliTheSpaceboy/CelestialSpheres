@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "celestialspheres:anorthosite_iron_ore"
+              "name": "celestialspheres:anorthosite_peridot_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:raw_iron"
+              "name": "celestialspheres:peridot"
             }
           ]
         }
