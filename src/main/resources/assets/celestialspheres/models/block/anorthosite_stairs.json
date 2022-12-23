@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+      "bottom": "celestialspheres:block/anorthosite",
+      "side": "celestialspheres:block/anorthosite",
+      "top": "celestialspheres:block/anorthosite"
+    }
+}
