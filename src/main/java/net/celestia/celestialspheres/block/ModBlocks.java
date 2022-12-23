@@ -10,6 +10,8 @@ import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.GravelBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -21,6 +23,8 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block ANORTHOSITE = registerBlock("anorthosite", new Block(FabricBlockSettings.of(Material.STONE, MapColor.LIGHT_GRAY).hardness(1.5f).resistance(6.0f).requiresTool()), ModItemGroup.CELESTIA_MISC_BLOCKS);
+    public static final Block ANORTHOSITE_SLAB = registerBlock("anorthosite_slab", new SlabBlock(FabricBlockSettings.of(Material.STONE, MapColor.LIGHT_GRAY).hardness(2.0f).resistance(6.0f).requiresTool()), ModItemGroup.CELESTIA_MISC_BLOCKS);
+    public static final Block ANORTHOSITE_STAIRS = registerBlock("anorthosite_stairs", new StairsBlock(ANORTHOSITE.getDefaultState(), FabricBlockSettings.copyOf(ANORTHOSITE)), ModItemGroup.CELESTIA_MISC_BLOCKS);
     public static final Block POLISHED_ANORTHOSITE = registerBlock("polished_anorthosite", new Block(FabricBlockSettings.of(Material.STONE, MapColor.LIGHT_GRAY).hardness(1.5f).resistance(6.0f).requiresTool()), ModItemGroup.CELESTIA_MISC_BLOCKS);
     public static final Block POLISHED_ANORTHOSITE_BRICKS = registerBlock("polished_anorthosite_bricks", new Block(FabricBlockSettings.of(Material.STONE, MapColor.LIGHT_GRAY).hardness(1.5f).resistance(6.0f).requiresTool()), ModItemGroup.CELESTIA_MISC_BLOCKS);   
     public static final Block ANORTHOSITE_IRON_ORE = registerBlock("anorthosite_iron_ore", new Block(FabricBlockSettings.of(Material.STONE, MapColor.LIGHT_GRAY).strength(3.0f).requiresTool()), ModItemGroup.CELESTIA_MISC_BLOCKS);
@@ -39,7 +43,7 @@ public class ModBlocks {
     public static final Block LIGHT_LUNARCRETE_BRICKS = registerBlock("light_lunarcrete_bricks", new Block(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).strength(1.8f).requiresTool()), ModItemGroup.CELESTIA_MOON_BLOCKS);
     public static final Block POLISHED_DARK_LUNARCRETE = registerBlock("polished_dark_lunarcrete", new Block(FabricBlockSettings.of(Material.STONE, MapColor.GRAY).strength(1.8f).requiresTool()), ModItemGroup.CELESTIA_MOON_BLOCKS);
     public static final Block POLISHED_LIGHT_LUNARCRETE = registerBlock("polished_light_lunarcrete", new Block(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).strength(1.8f).requiresTool()), ModItemGroup.CELESTIA_MOON_BLOCKS);
-    public static final Block CHEESE_BLOCK = registerBlock("cheese_block", new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT, MapColor.STONE_GRAY).sounds(BlockSoundGroup.NETHER_WART).strength(0.5f)), ModItemGroup.CELESTIA_MOON_BLOCKS);
+    public static final Block CHEESE_BLOCK = registerBlock("cheese_block", new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC, MapColor.PALE_YELLOW).sounds(BlockSoundGroup.WART_BLOCK).strength(0.5f)), ModItemGroup.CELESTIA_MOON_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

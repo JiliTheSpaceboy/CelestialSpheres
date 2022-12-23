@@ -26,7 +26,7 @@ public class ModFluids {
     public static void register() {
         STILL_MOLTEN_CHEESE = Registry.register(Registries.FLUID, new Identifier(CelestialSpheres.MOD_ID, "still_molten_cheese"), new MoltenCheeseFluid.Still());
         FLOWING_MOLTEN_CHEESE = Registry.register(Registries.FLUID, new Identifier(CelestialSpheres.MOD_ID, "flowing_molten_cheese"), new MoltenCheeseFluid.Flowing());
-        MOLTEN_CHEESE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CelestialSpheres.MOD_ID, "molten_cheese"), new FluidBlock(ModFluids.STILL_MOLTEN_CHEESE, FabricBlockSettings.of(Material.LAVA, MapColor.PALE_YELLOW).noCollision().strength(100.0f).dropsNothing()));
+        MOLTEN_CHEESE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CelestialSpheres.MOD_ID, "molten_cheese"), new FluidBlock(ModFluids.STILL_MOLTEN_CHEESE, FabricBlockSettings.of(Material.LAVA, MapColor.YELLOW).noCollision().strength(100.0f).dropsNothing()));
         MOLTEN_CHEESE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CelestialSpheres.MOD_ID, "molten_cheese_bucket"), new BucketItem(ModFluids.STILL_MOLTEN_CHEESE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
         ItemGroupEvents.modifyEntriesEvent(ModItemGroup.CELESTIA_MOON_ITEMS).register(Entries -> Entries.add(MOLTEN_CHEESE_BUCKET));
     }
