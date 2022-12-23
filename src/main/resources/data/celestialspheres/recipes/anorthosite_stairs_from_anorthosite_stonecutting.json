@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "celestialspheres:anorthosite"
+  },
+  "result": "celestialspheres:anorthosite_stairs"
+}
