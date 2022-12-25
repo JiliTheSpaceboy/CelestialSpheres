@@ -1,0 +1,53 @@
+{
+  "precipitation": "none",
+  "temperature": 1,
+  "downfall": 0,
+  "effects": {
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": -16777216,
+    "fog_color": -16777216,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "enderman",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 2
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "celestialspheres:highlands_breccia"
+    ],
+    [],
+    [],
+    [
+      "celestialspheres:lunar_boulder"
+	  ],
+    []
+  ]
+}
