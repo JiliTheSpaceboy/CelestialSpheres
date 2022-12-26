@@ -35,12 +35,12 @@
     [],
     [],
     [
-      "minecraft:ore_gravel",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
+      "celestialspheres:ore_lunar_dunite",
+      "celestialspheres:ore_lunar_gravel",
+      "celestialspheres:ore_lunar_iron",
+      "celestialspheres:ore_lunar_mare_smooth_basalt",
+      "celestialspheres:ore_lunar_peridot",
+      "celestialspheres:ore_lunar_smooth_basalt",
       "celestialspheres:mare_breccia"
     ],
     [],
